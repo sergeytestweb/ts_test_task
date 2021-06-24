@@ -1,12 +1,12 @@
 import { TableProps } from "./Table";
 import styles from "./table.module.css";
 
-const table = require("./JSON/Table.json");
+const table = require("../JSON/Table.json");
 
-export const Table  = ({ children, ...props }: TableProps): JSX.Element => {
+export const Table = ({ children, ...props }: TableProps): JSX.Element => {
 
   return (
-    <div className={styles.myTable}>
+    <div className={styles.sсrollableTableBox}>
       <table>
         <thead>
           <tr>
@@ -18,8 +18,8 @@ export const Table  = ({ children, ...props }: TableProps): JSX.Element => {
         <tbody>
           {table.rows.map((row, index) => {
             return <tr key={index}>{row.cols.map((col, index2) => {
-				return <td key={index2}>{col}</td>;
-			})}</tr>;
+              return <td key={index2}>{col}</td>;
+            })}</tr>;
           })}
         </tbody>
       </table>
