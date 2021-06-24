@@ -10,15 +10,15 @@ export const Table = ({ children, ...props }: TableProps): JSX.Element => {
       <table>
         <thead>
           <tr>
-            {table.header.map((el, index) => {
-              return <th key={index}>{el}</th>;
+            {table.header.map((el, elIndex) => {
+              return <th key={elIndex}>{el}</th>;
             })}
           </tr>
         </thead>
         <tbody>
-          {table.rows.map((row, index) => {
-            return <tr key={index}>{row.cols.map((col, index2) => {
-              return <td key={index2}>{col}</td>;
+          {table.rows.map((row, rowIndex) => {
+            return <tr key={rowIndex}>{row.cols.map((col, colIndex) => {
+              return <td key={colIndex}>{col}</td>;
             })}</tr>;
           })}
         </tbody>

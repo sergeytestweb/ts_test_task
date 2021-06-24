@@ -1,9 +1,16 @@
 .sсrollableTableBox {
   font-size: 20px;
-  width: 600px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 600px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   border: 2px solid blueviolet;
+}
+
+.sсrollableTableBox > table > thead > th:nth-child(1) {
+  border: solid 1px black;
+}
+.sсrollableTableBox > table > tbody > tr:nth-child(1n) > td:nth-child(1n) {
+  border: solid 1px black;
 }
