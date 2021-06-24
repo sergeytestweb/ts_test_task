@@ -1,4 +1,5 @@
 .sсrollableTableBox {
+  display: grid;
   font-size: 20px;
   width: 100%;
   max-width: 600px;
@@ -8,8 +9,8 @@
   border: 2px solid blueviolet;
 }
 
-.sсrollableTableBox > table > thead > th:nth-child(1) {
-  border: solid 1px black;
+.sсrollableTableBox > table > thead > tr > th {
+  border-bottom: solid 1px black;
 }
 .sсrollableTableBox > table > tbody > tr:nth-child(1n) > td:nth-child(1n) {
   border: solid 1px black;
