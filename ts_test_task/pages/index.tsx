@@ -5,7 +5,7 @@ export default function Home(): JSX.Element {
 
   return (
     <>
-      <Table >example Table</Table>
+      <Table />
     </>
   );
 }
