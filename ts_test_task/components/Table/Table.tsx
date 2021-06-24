@@ -1,5 +1,5 @@
 import { TableProps } from "./Table";
-import styles from " ./Table.module.css";
+import "./Table.module.css";
 const table = require("./JSON/Table.json");
 
 export const Table  = ({ children, ...props }: TableProps): JSX.Element => {
