@@ -3,10 +3,7 @@
   font-size: 20px;
   width: 100%;
   max-width: 600px;
-  overflow-x: scroll;
-  overflow-y: hidden;
   white-space: nowrap;
-  border: 2px solid blueviolet;
 }
 
 .sсrollableTableBox > table {
@@ -20,6 +17,7 @@
   border: solid 1px black;
   position: sticky;
   top: 0;
+  background: white;
 }
 
 .sсrollableTableBox > table > tbody > tr:nth-child(1n) > td:nth-child(1n) {
