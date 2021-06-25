@@ -1,29 +1,32 @@
 .sсrollableTableBox {
   display: grid;
   font-size: 20px;
-  position: sticky; 
-  top: 0;
   width: 100%;
   max-width: 600px;
-  overflow-x: auto;
+  overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   border: 2px solid blueviolet;
 }
 
-.sсrollableTableBox > table > thead > tr > th {
+.sсrollableTableBox > table {
+    position: relative;
+    border-collapse: collapse;
+    border-spacing: 0px;
+  }
+
+
+.sсrollableTableBox > table > thead {
   border: solid 1px black;
+  position: sticky;
+  top: 0;
 }
+
 .sсrollableTableBox > table > tbody > tr:nth-child(1n) > td:nth-child(1n) {
   border: solid 1px black;
   padding: 0 10px;
 } 
 
-.sсrollableTableBox > 
-table{
-  border-spacing: 0px;
-  border-collapse: collapse;
-}
 .sсrollableTableBox > table > tbody > tr:last-child {
     font-weight: bold;
 }
