@@ -5,25 +5,25 @@
             "cols":[
                 {"value": "Name 1"},
                 {"value": "2"},
-                {"value": "3"},
+                {"value": "some text"},
                 {"value": "4"},
                 {"value": "5"}
             ]
         },
         {
             "cols":[
-                {"value": "Name 1"},
+                {"value": "Name 2"},
                 {"value": "2"},
-                {"value": "3"},
+                {"value": "some text"},
                 {"value": "4"},
                 {"value": "5"}
             ]
         },
         {
             "cols":[
-                {"value": "Name 1"},
+                {"value": "Name 3"},
                 {"value": "2"},
-                {"value": "3"},
+                {"value": "some text"},
                 {"value": "4"},
                 {"value": "5"}
             ]
@@ -31,13 +31,12 @@
         {
             "cols":[
                 {
-                    "id": "total",
-                    "value": "Total"
+                    "value": "Total:"
                 },
+                {"value": "6"},
                 {"value": ""},
-                {"value": ""},
-                {"value": ""},
-                {"value": ""}
+                {"value": "12"},
+                {"value": "15"}
             ]
         }
     ]

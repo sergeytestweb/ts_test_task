@@ -5,10 +5,6 @@ const table = require("../JSON/dataUrl.json");
 
 export const Table = ({ children, ...props }: TableProps): JSX.Element => {
 
-// const getTotalValues = value => {
-
-// }
-
   return (
     <div className={styles.sсrollableTableBox}>
       <table>
@@ -24,7 +20,6 @@ export const Table = ({ children, ...props }: TableProps): JSX.Element => {
             return (
               <tr key={rowIndex}>
                 {row?.cols?.map((col, colIndex) => {
-                  //if(col.id) getTotalValues(col.value)
                   return <td key={colIndex}>{col.value}</td>;
                 })}
               </tr>

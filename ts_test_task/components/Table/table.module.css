@@ -12,8 +12,18 @@
 }
 
 .sсrollableTableBox > table > thead > tr > th {
-  border-bottom: solid 1px black;
+  border: solid 1px black;
 }
 .sсrollableTableBox > table > tbody > tr:nth-child(1n) > td:nth-child(1n) {
   border: solid 1px black;
+  padding: 0 10px;
+} 
+
+.sсrollableTableBox > 
+table{
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+.sсrollableTableBox > table > tbody > tr:last-child {
+    font-weight: bold;
 }
