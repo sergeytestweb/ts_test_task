@@ -7,11 +7,10 @@
 }
 
 .sсrollableTableBox > table {
-    position: relative;
-    border-collapse: collapse;
-    border-spacing: 0px;
-  }
-
+  position: relative;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
 
 .sсrollableTableBox > table > thead {
   border: solid 1px black;
@@ -23,8 +22,8 @@
 .sсrollableTableBox > table > tbody > tr:nth-child(1n) > td:nth-child(1n) {
   border: solid 1px black;
   padding: 0 10px;
-} 
+}
 
 .sсrollableTableBox > table > tbody > tr:last-child {
-    font-weight: bold;
+  font-weight: bold;
 }
