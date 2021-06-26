@@ -6,6 +6,8 @@ export default function Home(): JSX.Element {
   return (
     <>
       <Table />
+      <p> </p>
+      <Table />
     </>
   );
 }
